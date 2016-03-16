@@ -11,9 +11,15 @@ if($called_position == 'after_module_proc') {
 	//Context::addCSSFile('./addons/custom_addon/css/addon.css');
 	//Context::addJsFile('./addons/custom_addon/js/custom_addon.js', false ,'', null, 'body');
 	//Context::addXmlFile('./addons/custom_addon/js/custom_addon.xml', false ,'', null, 'body');
-	//$document_srl = Context::get('document_srl');
+	$document_srl = Context::get('document_srl');
+
+
+	class kmdb {
+		function testing() {
+			echo 'hi';
+			exit;
+		}
+	}
+
 	//Context::addHtmlFooter($footer_content);
-
-
-
 }
