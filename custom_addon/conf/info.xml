@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon version="0.2">
+    <title xml:lang="ko">Custom addon</title>
+    <description xml:lang="ko">
+		사용자 function(), .css, .xml, .js 파일을 로드하는 애드온입니다.
+    </description>
+    <version>0.1</version>
+    <date>2015-04</date>
+    <author email_address="1sam@korea.com" link="http://1sam.kr">
+        <name xml:lang="ko">1SamOnline</name>
+    </author>
+
+  	<extra_vars />
+</addon>
